@@ -1,5 +1,5 @@
-import React from 'react'
-import './Login.css'
+import React from 'react';
+import './Login.css';
 
 const Login = () => {
     return (<>
@@ -22,7 +22,7 @@ const Login = () => {
     </label>
   </div>
 
-  <div className="container" style={{background:"color:#f1f1f1"}}>
+  <div className="container" style={{backgroundColor:"#f1f1f1"}}>
     <button type="button" class="cancelbtn">Cancel</button>
     <span class="psw">Forgot <a href="#">password?</a></span>
   </div>

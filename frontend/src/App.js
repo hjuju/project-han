@@ -17,7 +17,7 @@ const App = () => {
       <Link to="">Go to Google</Link><br/>
     </Router>
   </nav>
-  <Counter/>
+  {/* <Counter/> */}
 
   
  </Element>

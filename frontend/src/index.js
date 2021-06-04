@@ -3,14 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import SignUp from './user/SignUp'
-import Login from '/user/Login'
+import Login from 'user/Login'
 import reportWebVitals from './reportWebVitals';
+import UserList from 'user/UserList';
 
 ReactDOM.render(
   <React.StrictMode>
-    <SignUp/>
-    <Login/>
-    
+    {/* <App/>
+    <SignUp/> 
+    <Login/>*/}
+    <UserList/>
   </React.StrictMode>,
   document.getElementById('root')
 );
