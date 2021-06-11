@@ -32,3 +32,4 @@ class Reader(ReaderBase):
 
     def create_gmaps(self):
         pass
+
